@@ -1,7 +1,7 @@
 
 
 # Description
-This is a image uploader that will allow users to store their files on IPFS, the interplantary file system (https://ipfs.io/).  
+This is a image uploader that will allow users to store their files on IPFS, the interplantary file system (https://ipfs.io/).  It uses React and a lot of code from a pre-built Truffle box, with custom components throughout.  An updated version of this will have administrative capabilities to allow for unlimited file-size uploads.
 
 # Assumptions and Dependencies
 Ganache (CLI or GUI)
