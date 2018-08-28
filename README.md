@@ -7,8 +7,10 @@ This is a image uploader that will allow users to store their files on IPFS, the
 Ganache (CLI or GUI)
 Truffle 
 React
+Infura
 nodejs
 ipfs-api
+getweb3.js
 Chrome and Metamask
 
 
@@ -30,7 +32,7 @@ Have Ganache running and connected to Metamask via Custom RPC
 
 # Technical details
 
-A lot of this happens within the javascript components (App.js) wherein calls are made to IPFS via React.  Files are stored on IPFS and the Ethereum Blockchain.  Have had some issues getting Metamask to offer a nonce that is different than what is offered by Ganache, this remains a bit of a stumbling block.
+A lot of this happens within the javascript components (App.js) wherein calls are made to IPFS via React to Infura.  Files are stored on IPFS and the Ethereum Blockchain.  Have had some issues getting Metamask to offer a nonce that is different than what is offered by Ganache, this remains a bit of a stumbling block.  getweb3.js is a client-side app that connects to the blockchain via metamask.  Metamask is a chrome plugin that allows you to transform your browser into a full web3 browser.
 
 # Unfinished components
 I wanted to offer administrative rights to allow unlimited file sizes for 'onlyOwner' (admins), whereas non-admin users would only be allowed to upload certain (<200k) files.  This remains unimplemented in the project.
