@@ -5,7 +5,8 @@ This is a image uploader that will allow users to store their files on IPFS, the
 
 # Assumptions and Dependencies
 • Ganache (CLI or GUI)
-• Truffle 
+• 
+Truffle 
 • React
 • Infura
 • node.js
