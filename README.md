@@ -4,14 +4,14 @@
 This is a image uploader that will allow users to store their files on IPFS, the interplantary file system (https://ipfs.io/).  It uses React and a lot of code from a pre-built Truffle box, with custom components throughout.  An updated version of this will have administrative capabilities to allow for unlimited file-size uploads.
 
 # Assumptions and Dependencies
-Ganache (CLI or GUI)
-Truffle 
-React
-Infura
-nodejs
-ipfs-api
-getweb3.js
-Chrome and Metamask
+• Ganache (CLI or GUI)
+• Truffle 
+• React
+• Infura
+• node.js
+• ipfs-api
+• getweb3.js
+• Chrome with Metamask tied to Ganache
 
 
 # Steps to Run
