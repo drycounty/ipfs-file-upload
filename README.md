@@ -14,6 +14,7 @@ This is a image uploader that will allow users to store their files on IPFS, the
 • Chrome with Metamask tied to Ganache
 
 
+
 # Steps to Run
 
 Have Ganache running and connected to Metamask via Custom RPC
